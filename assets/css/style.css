@@ -53,7 +53,8 @@ body {
  * functions
  * -------------------------------- */
 #functions {
-  background-color: #54c2ed; }
+  background-color: #54c2ed;
+  padding-bottom: 100px; }
 
 .functions-text {
   font-size: 2rem; }
@@ -61,7 +62,6 @@ body {
 .functions-wrap {
   display: table;
   width: 80%;
-  padding: 100px;
   margin: 50px auto 0;
   table-layout: fixed; }
 
@@ -97,4 +97,7 @@ body {
     font-size: 4rem; }
   /* --- about --- */
   /* --- functions --- */
+  .functions-wrap,
+  .functions-box {
+    display: block; }
   /* --- photos --- */ }
