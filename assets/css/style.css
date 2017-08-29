@@ -41,16 +41,13 @@ body {
 /* --------------------------------
  * about
  * -------------------------------- */
-.about-wrap {
-  overflow: hidden; }
+.about-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
-.about-left-child {
-  float: left;
-  width: 50%; }
-
-.about-right-child {
-  float: right;
-  width: 50%; }
+.about-col {
+  width: 100%; }
 
 /* --------------------------------
  * functions

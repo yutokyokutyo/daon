@@ -52,16 +52,11 @@ body {
  * -------------------------------- */
 .about-text {
 }
-.about-wrap {
-  overflow: hidden;
+.about-row {
+  display: flex;
 }
-.about-left-child {
-  float: left;
-  width: 50%;
-}
-.about-right-child {
-  float: right;
-  width: 50%;
+.about-col {
+  width: 100%;
 }
 
 /* --------------------------------
@@ -117,6 +112,7 @@ body {
     padding: 20px;
     font-size: 4rem;
   }
+
   /* --- about --- */
 
 
