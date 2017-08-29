@@ -60,7 +60,7 @@ body {
           flex: 1; }
 
 .about-image {
-  margin: 50px;
+  margin: 0 50px 50px;
   height: 0;
   padding-bottom: 56%;
   background-image: url("../images/about.png");
@@ -123,6 +123,10 @@ body {
             flex-direction: column; }
   .about-image {
     margin-bottom: 30px; }
+  .about-sub-title {
+    font-size: 1.8rem; }
+  .about-text {
+    font-size: 1.3rem; }
   /* --- functions --- */
   .functions-wrap,
   .functions-box {
