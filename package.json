@@ -1,0 +1,30 @@
+{
+  "name": "daon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yutokyokutyo/daon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yutokyokutyo/daon/issues"
+  },
+  "homepage": "https://github.com/yutokyokutyo/daon#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
+}
