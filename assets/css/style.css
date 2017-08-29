@@ -79,15 +79,6 @@ body {
 .photos-text {
   font-size: 2rem; }
 
-.photos-wrap {
-  display: table;
-  width: 80%;
-  margin: 50px auto;
-  table-layout: fixed; }
-
-.photos-box {
-  display: table-cell; }
-
 /* --------------------------------
  * footer
  * -------------------------------- */
