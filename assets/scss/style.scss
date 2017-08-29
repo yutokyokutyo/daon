@@ -1,11 +1,16 @@
 @charset "utf-8";
 
 /* --------------------------------
+ * vars
+ * -------------------------------- */
+$base-color: #54c2ed;
+
+/* --------------------------------
  * base
  * -------------------------------- */
-
 html {
   font-size: 62.5%;
+  color: #333;
 }
 *, *:before, *:after {
   box-sizing: border-box;
@@ -21,8 +26,10 @@ body {
  * parts
  * -------------------------------- */
 .site-sub-title {
-  margin: 50px 0 40px;
+  margin: 50px 0 60px;
+  padding: 50px;
   font-size: 7rem;
+  font-family: 'Baloo Bhaijaan', cursive, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
 }
 
 
@@ -58,23 +65,37 @@ body {
 /* --------------------------------
  * functions
  * -------------------------------- */
+#functions {
+  background-color: $base-color;
+}
+.functions-text {
+  font-size: 2rem;
+}
 .functions-wrap {
   display: table;
   width: 80%;
+  padding: 100px;
   margin: 50px auto 0;
   table-layout: fixed;
 }
 .functions-box {
   display: table-cell;
 }
+.functions-image-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
 
 /* --------------------------------
  * photos
  * -------------------------------- */
+.photos-text {
+  font-size: 2rem;
+}
 .photos-wrap {
   display: table;
   width: 80%;
-  margin: 50px auto 0;
+  margin: 50px auto;
   table-layout: fixed;
 }
 .photos-box {
@@ -85,6 +106,11 @@ body {
 /* --------------------------------
  * footer
  * -------------------------------- */
+#footer {
+  background-color: $base-color;
+  padding: 10px 0;
+  margin-top: 30px;
+}
 
 
 /* --------------------------------
