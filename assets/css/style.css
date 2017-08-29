@@ -41,6 +41,13 @@ body {
 /* --------------------------------
  * about
  * -------------------------------- */
+.about-sub-title {
+  font-size: 3rem; }
+
+.about-text {
+  font-size: 2rem;
+  line-height: 1.5; }
+
 .about-row {
   display: -webkit-box;
   display: -ms-flexbox;
