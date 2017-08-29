@@ -99,6 +99,11 @@ body {
     padding: 20px;
     font-size: 4rem; }
   /* --- about --- */
+  .about-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
   /* --- functions --- */
   .functions-wrap,
   .functions-box {

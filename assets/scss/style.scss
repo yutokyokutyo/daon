@@ -115,6 +115,9 @@ body {
   }
 
   /* --- about --- */
+  .about-row {
+    flex-direction: column;
+  }
 
   /* --- functions --- */
   .functions-wrap,
