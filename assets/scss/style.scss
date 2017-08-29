@@ -55,8 +55,9 @@ body {
 .about-row {
   display: flex;
 }
-.about-col {
-  width: 100%;
+.about-col-1,
+.about-col-2 {
+  flex: 1;
 }
 
 /* --------------------------------
