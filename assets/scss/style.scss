@@ -29,7 +29,7 @@ body {
  * parts
  * -------------------------------- */
 .site-sub-title {
-  margin: 50px 0 60px;
+  margin: 50px 0 40px;
   padding: 50px;
   font-size: 7rem;
   font-family: 'Baloo Bhaijaan', cursive, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -43,26 +43,37 @@ body {
   display: none;
 }
 .header-image {
-  height: 100vh;
-  width: 100vw;
+  height: 0;
+  padding-top: 56%;
+  background-image: url('../images/daon1.png');
+  background-size: cover;
 }
 
 
 /* --------------------------------
  * about
  * -------------------------------- */
+.about-sub-title {
+  font-size: 3rem;
+}
 .about-text {
+  font-size: 2rem;
+  line-height: 1.5;
 }
-.about-wrap {
-  overflow: hidden;
+.about-row {
+  display: flex;
 }
-.about-left-child {
-  float: left;
-  width: 50%;
+.about-col-1,
+.about-col-2 {
+  flex: 1;
 }
-.about-right-child {
-  float: right;
-  width: 50%;
+.about-image {
+  margin: 0 50px 50px;
+  height: 0;
+  padding-bottom: 56%;
+  background-image: url('../images/about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* --------------------------------
@@ -70,14 +81,15 @@ body {
  * -------------------------------- */
 #functions {
   background-color: $base-color;
+  padding-bottom: 100px;
 }
 .functions-text {
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 .functions-wrap {
   display: table;
   width: 80%;
-  padding: 100px;
   margin: 50px auto 0;
   table-layout: fixed;
 }
@@ -94,6 +106,7 @@ body {
  * -------------------------------- */
 .photos-text {
   font-size: 2rem;
+  margin: 0 0 60px;
 }
 
 
@@ -110,13 +123,35 @@ body {
 /* --------------------------------
  * smart phone
  * -------------------------------- */
-@media (max-width: 1024px) {
-}
 @media (max-width: 768px) {
 
+  /* --- parts --- */
+  .site-sub-title {
+    margin: 20px 0 20px;
+    padding: 20px;
+    font-size: 4rem;
+  }
+
   /* --- about --- */
+  .about-row {
+    flex-direction: column;
+  }
+  .about-image {
+    margin-bottom: 30px;
+  }
+  .about-sub-title {
+    font-size: 1.8rem;
+  }
+  .about-text {
+    font-size: 1.3rem;
+  }
 
   /* --- functions --- */
+  .functions-wrap,
+  .functions-box {
+    display: block;
+  }
+
 
   /* --- photos --- */
 
