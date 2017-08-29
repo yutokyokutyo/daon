@@ -26,7 +26,7 @@ body {
  * parts
  * -------------------------------- */
 .site-sub-title {
-  margin: 50px 0 60px;
+  margin: 50px 0 40px;
   padding: 50px;
   font-size: 7rem;
   font-family: 'Baloo Bhaijaan', cursive, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
@@ -65,8 +65,9 @@ body {
   flex: 1;
 }
 .about-image {
+  margin: 50px;
   height: 0;
-  padding-top: 56%;
+  padding-bottom: 56%;
   background-image: url('../images/about.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,6 +82,7 @@ body {
 }
 .functions-text {
   font-size: 2rem;
+  margin-bottom: 10px;
 }
 .functions-wrap {
   display: table;
@@ -101,6 +103,7 @@ body {
  * -------------------------------- */
 .photos-text {
   font-size: 2rem;
+  margin: 0 0 60px;
 }
 
 
