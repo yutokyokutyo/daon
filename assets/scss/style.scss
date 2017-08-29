@@ -109,11 +109,16 @@ body {
 /* --------------------------------
  * smart phone
  * -------------------------------- */
-@media (max-width: 1024px) {
-}
 @media (max-width: 768px) {
 
+  /* --- parts --- */
+  .site-sub-title {
+    margin: 20px 0 30px;
+    padding: 20px;
+    font-size: 4rem;
+  }
   /* --- about --- */
+
 
   /* --- functions --- */
 
