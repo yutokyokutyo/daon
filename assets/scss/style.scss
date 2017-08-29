@@ -59,6 +59,13 @@ body {
 .about-col-2 {
   flex: 1;
 }
+.about-image {
+  height: 0;
+  padding-top: 56%;
+  background-image: url('../images/about.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* --------------------------------
  * functions
@@ -109,7 +116,7 @@ body {
 
   /* --- parts --- */
   .site-sub-title {
-    margin: 20px 0 30px;
+    margin: 20px 0 20px;
     padding: 20px;
     font-size: 4rem;
   }
@@ -117,6 +124,9 @@ body {
   /* --- about --- */
   .about-row {
     flex-direction: column;
+  }
+  .about-image {
+    margin-bottom: 30px;
   }
 
   /* --- functions --- */
