@@ -160,11 +160,23 @@ body {
   .about-text {
     font-size: 1.3rem;
   }
+  .about-col-2 {
+    margin: 40px 0;
+  }
 
   /* --- functions --- */
+  #functions {
+    padding-bottom: 50px;
+  }
   .functions-wrap,
   .functions-box {
     display: block;
+  }
+  .functions-box {
+    margin: 50px 0;
+  }
+  .functions-image-text {
+    margin: 0;
   }
 
 
